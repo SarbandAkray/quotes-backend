@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quotes</title>
+    <link rel="icon" href="./logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./download.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-sm ">
+
+            <div class="container-fluid justify-content-center d-flex gap-5">
+              <!-- Links -->
+              <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Avatar Logo" style="width:40px;" > 
+              </a>
+              <ul class="navbar-nav d-flex gap-3">
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="./download.html">Download</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-black" href="about.html">About</a>
+                </li>
+              </ul>
+            </div>
+          
+</nav>
+
+<div class="all" style="overflow-y: scroll; height: 91.5vh;">
+<div class="container d-flex flex-column justify-content-center align-items-center">
+    <div class="mt-5"> DOWNLOAD THE LATEST VERSION HERE</div>
+    <div class="mt-3"><img src="./logo.png"></div>
+    <div class="mt-5 d-flex gap-4 justify-content-center align-items-center buttonOfDownloadWindows" >
+        <div> Download For windows</div>
+        <div class="btn-circle-download">
+            <svg id="arrow" width="14px" height="20px" viewBox="17 14 14 20">
+              <path d="M24,15 L24,32"></path>
+              <polyline points="30 27 24 33 18 27"></polyline>
+            </svg>
+            <svg id="check" width="21px" height="15px" viewBox="13 17 21 15">
+              <polyline points="32.5 18.5 20 31 14.5 25.5"></polyline>
+            </svg>
+            <svg  id="border" width="48px" height="48px" viewBox="0 0 48 48">
+              <path d="M24,1 L24,1 L24,1 C36.7025492,1 47,11.2974508 47,24 L47,24 L47,24 C47,36.7025492 36.7025492,47 24,47 L24,47 L24,47 C11.2974508,47 1,36.7025492 1,24 L1,24 L1,24 C1,11.2974508 11.2974508,1 24,1 L24,1 Z"></path>
+            </svg>
+           
+        </div> 
+    </div>
+    <p id="downloadsForWindows">0 Downloads</p>       
+
+    <div class="mt-5 d-flex gap-4 justify-content-center align-items-center buttonOfDownloadAndroid" >
+        <div> Download For Android (comming soon!!)</div>
+        <div class="btn-circle-download">
+            <svg id="arrow" width="14px" height="20px" viewBox="17 14 14 20">
+              <path d="M24,15 L24,32"></path>
+              <polyline points="30 27 24 33 18 27"></polyline>
+            </svg>
+            <svg id="check" width="21px" height="15px" viewBox="13 17 21 15">
+              <polyline points="32.5 18.5 20 31 14.5 25.5"></polyline>
+            </svg>
+            <svg  id="border" width="48px" height="48px" viewBox="0 0 48 48">
+              <path d="M24,1 L24,1 L24,1 C36.7025492,1 47,11.2974508 47,24 L47,24 L47,24 C47,36.7025492 36.7025492,47 24,47 L24,47 L24,47 C11.2974508,47 1,36.7025492 1,24 L1,24 L1,24 C1,11.2974508 11.2974508,1 24,1 L24,1 Z"></path>
+            </svg>
+           
+        </div> 
+    </div>
+    <p id="downloadsForAndroid">0 Downloads</p>      
+    <a href="./download/Quotes-1.0.0 Setup.exe" id="download" style="display: none;" download></a>
+</div>
+
+</div>
+
+<script src="download.js" type="module"></script>
+</body>
+</html>

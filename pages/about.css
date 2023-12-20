@@ -1,0 +1,8 @@
+
+.socialBtn{
+    color: black;
+}
+.socialBtn:hover{
+    cursor: pointer;
+    color: red;
+}
